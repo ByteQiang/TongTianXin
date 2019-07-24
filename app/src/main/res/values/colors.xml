@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray_tab_line">#e2e2e2</color>
+    <color name="black_alpha_03">#07000000</color>
+    <color name="white">#ffffff</color><!--白色 -->
+    <color name="gray_line">#bab9b9</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlue">#036BC5</color>
+    <color name="colorRed">#EC0252</color>
+    <color name="colorgray">#bab9b9</color>
+    <color name="colorgray_alarm">#E9E9E9</color>
+    <color name="color_label">#04BBA8</color>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite">
+    <TextView
+        android:id="@+id/flag_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/colorgray"
+        android:textStyle="bold"
+        android:text="06-17\n22:22"
+        tools:ignore="MissingConstraints" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/flag_time"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorgray"
+          />
+        <!--android:minHeight="170dp"-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/alarm_detail_bac">
+            <TextView
+                android:id="@+id/textFlag_one"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_label"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:text="引擎熄火" />
+
+            <TextView
+                android:id="@+id/textFlag_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:gravity="center"
+                android:background="@drawable/alarm_label_bac"
+                android:layout_toRightOf="@id/textFlag_one"
+                android:textColor="@color/color_label"
+                android:text="未知司机" />
+
+            <TextView
+                android:id="@+id/textFlag_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textFlag_one"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:paddingRight="4dp"
+                android:gravity="left|center"
+                android:text="这是第一次，我家的铲屎官走了这么久。就到了好多天没见过人了!在听到脚本牛市卡卡是点击链接发噶世界冠军赛的开关联科技撒赖感觉拉克丝酒店管理精神的可贵京卡河水库的价格哈就开始党和国家按时的韩国阿拉斯加的快攻扣篮吉萨独立国空军傻大个垃圾十多个卢卡斯大家。" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
